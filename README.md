@@ -18,10 +18,15 @@ pgp_decryptor/
 - Outputs CSV summary with decryption results
 - Simple CLI support for automation and scripting
 
-## Installation
-
+## Installation Locally
+Inthe root of your project directory (where pyproject.toml is):
 ```bash
-pip install pgp-decryptor
+pip install .
+```
+
+Or for development mode (hot reload changes):
+```bash
+pip install -e .
 ```
 
 ## Usage
