@@ -1,0 +1,16 @@
+[project]
+name = "pgp-decryptor"
+version = "0.1.0"
+description = "Batch decrypt .gpg files using GPG and multiprocessing"
+authors = [{name = "Your Name", email = "you@example.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+dependencies = []
+
+[project.scripts]
+pgp-decryptor = "pgp_decryptor.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
