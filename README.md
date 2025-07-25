@@ -3,7 +3,7 @@
 A Python tool to batch decrypt `.gpg` files using GPG with multiprocessing support.
 
 ## Structure
-pgp_decryptor/
+pgp_decryptor/ <br>
 ├── pgp_decryptor/  <br>
 │   ├── __init__.py <br>
 │   ├── decryptor.py <br>
