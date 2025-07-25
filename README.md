@@ -4,13 +4,13 @@ A Python tool to batch decrypt `.gpg` files using GPG with multiprocessing suppo
 
 ## Structure
 pgp_decryptor/
-├── pgp_decryptor/
-│   ├── __init__.py
-│   ├── decryptor.py
-│   └── cli.py
-├── README.md
-├── pyproject.toml
-├── LICENSE
+├── pgp_decryptor/  <br>
+│   ├── __init__.py <br>
+│   ├── decryptor.py <br>
+│   └── cli.py <br>
+├── README.md <br>
+├── pyproject.toml <br>
+├── LICENSE <br>
 
 ## Features
 
